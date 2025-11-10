@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.orange { background: orange; }
+
+.square-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
